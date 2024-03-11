@@ -4,16 +4,14 @@ return {
     "oxfist/night-owl.nvim",
     lazy = false,
     priority = 1000,
-    -- TODO: fix this
-    config = function()
-      require("night-owl").setup({
-        italics = false,
-      })
-    end,
+    opts = {
+      italics = false,
+    },
   },
 
   {
     "LazyVim/LazyVim",
+    lazy = true,
     opts = {
       colorscheme = "night-owl",
     },
