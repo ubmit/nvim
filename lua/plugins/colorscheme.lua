@@ -2,12 +2,14 @@ return {
   -- add night owl theme
   {
     "oxfist/night-owl.nvim",
-    lazy = true,
+    lazy = false,
     priority = 1000,
-    -- TODO: disable italics
-    opts = {
-      italics = false,
-    },
+    -- TODO: fix this
+    config = function()
+      require("night-owl").setup({
+        italics = false,
+      })
+    end,
   },
 
   {
