@@ -3,7 +3,7 @@ return {
   config = {
     update_interval = 1000,
     set_dark_mode = function()
-      vim.cmd("colorscheme catppuccin-mocha")
+      vim.cmd("colorscheme vesper")
     end,
     set_light_mode = function()
       vim.cmd("colorscheme catppuccin-latte")

@@ -7,9 +7,14 @@ return {
   },
 
   {
+    "datsfilipe/vesper.nvim",
+    priority = 1000,
+  },
+
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-latte",
+      colorscheme = "vesper",
     },
   },
 }
